@@ -1,0 +1,15 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+wp-config.php
+wp-content/uploads/
+
+#Using CK2
+.sass-cache/*
+**/.sass-cache
+**/.sass-cache/*
+*.log
