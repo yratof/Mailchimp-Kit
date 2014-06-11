@@ -63,7 +63,11 @@ h1, h2, h3, h4, h5, h6{color:$body; font-family:Arial; font-size:20px; line-heig
 	font-size: 14px;
 	letter-spacing: 0.029em;
 	font-weight: 300;
-	padding: 15px; 
+	padding: 0;
+	
+	// OUTLOOOOOOOOKKK!!!!!!
+	line-height: 4
+	
 }
 
 .emailButton{
@@ -83,21 +87,48 @@ h1, h2, h3, h4, h5, h6{color:$body; font-family:Arial; font-size:20px; line-heig
 a{
 	color: $blue;
 }
+
 .navigation{
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	list-style: none;
 	
-	li{
-		list-style: none;
-		display: inline;
+	td {
+	
 
 		a{
 			text-decoration: none;	
 			padding: 0 2px;
 			font-size: 15px;
+			display: inline-block;
 		}
 	}
+}
+
+h2{
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: 500;
+	letter-spacing: 0;
+	text-transform: uppercase;	
+	line-height: 1.2;
+	
+	&.subtitle{
+		font-size: 22px;
+	}
+	
+	&.title {
+		font-size: 46px;
+	}
+	
+
+	
+	&.blue { 	color: $blue;	}
+	&.orange { 	color: $orange;	}
+	&.pink { 	color: $pink;	}
+	&.green { 	color: $green;	}
+
 }
 
 
@@ -160,18 +191,48 @@ a{
 		margin: 0;
 		padding: 0;
 		text-align: center;
+		list-style: none;
 		
-		li{
+		td{
 			list-style: none;
-			display: inline;
+			display: inline-block;
 	
 			a{
 				text-decoration: none;	
 				padding: 0 2px;
+				display: inline-block;
 				font-size: 15px;
 			}
 		}
 	}
+
+
+	.flexibleContainerCell > table {
+	    width: 320px;
+	}
+
+	h2{
+		text-align: center;
+		font-weight: 500;
+		letter-spacing: -1px;
+		text-transform: uppercase;	
+	
+		&.subtitle{
+			font-size: 30px;
+			font-weight: 300;
+		}
+		
+		&.title {
+			font-size: 30px;
+		}
+		
+		&.blue { 	color: $blue;	}
+		&.orange { 	color: $orange;	}
+		&.pink { 	color: $pink;	}
+		&.green { 	color: $green;	}
+	
+	}
+
 
 	p{
 		margin: 1em 2em;
